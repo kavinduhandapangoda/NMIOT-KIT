@@ -45,7 +45,7 @@ void setup_wifi() {
 void callback(char* topic, byte* payload, unsigned int length) 
 {
   Serial.print("Command from MQTT broker is : [");
-  Serial.print(topic);
+  Serial.print("Thingerbits NMCU");
    Serial.println();
   Serial.print(" publish data is:");
   lcd.clear();
